@@ -1,6 +1,28 @@
 {
     "name": "unikrn/mautic-composer-plugin",
     "type": "composer-plugin",
+    "description": "Composer 2 Plugin for Mautic. Forked from mautic/composer-plugin",
+    "keywords": ["mautic","composer"],
+    "homepage": "https://github.com/unikrn/mautic-composer-plugin",
+    "authors": [
+        {
+            "name": "Alan Hartless",
+            "homepage": "https://about.me/alanhartless",
+            "role": "Developer"
+        },
+        {
+            "name": "Don Gilbert",
+            "email": "don@dongilbert.net",
+            "homepage": "http://dongilbert.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Mark Mulder",
+            "email": "mark@unikrn.com",
+            "homepage": "https://unikrn.com",
+            "role": "Developer"
+        }
+    ],    
     "license": "MIT",
     "autoload": {
         "psr-4": {"Mautic\\Composer\\": "src/"}
