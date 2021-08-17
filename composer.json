@@ -1,5 +1,5 @@
 {
-    "name": "mautic/composer-plugin",
+    "name": "unikrn/mautic-composer-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
